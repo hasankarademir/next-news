@@ -1,0 +1,44 @@
+@import './vendors.scss';
+@import './variables.scss';
+
+body {
+      overflow: hidden;
+      font-size: 16px;
+      font-weight: normal;
+      font-family: $font-main;
+}
+
+a, a:hover {
+      text-decoration: none;
+}
+
+*, h1, h2, h3, h4, h5, h6 {
+      margin: 0 0 0 0;
+      padding: 0;
+      list-style: none;
+}
+
+svg {
+      path {
+            fill: #d4d4d4;
+            stroke: #d4d4d4;
+      }
+}
+
+.container {
+      width: 1100px;
+      margin: 0 auto;
+}
+
+html {
+      overflow: scroll;
+      overflow-x: hidden;
+}
+::-webkit-scrollbar {
+      width: 0px;  /* Remove scrollbar space */
+      background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+      ::-webkit-scrollbar-thumb {
+      background: transparent;
+}

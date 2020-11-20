@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "listID" : 1234,
+      "title": "Ask HN: Who is hiring?",
+      "author": "hasankarademir",
+      "createdDate": "Feb 1, 2020",
+      "likes": "104",
+      "list" : [
+        {
+          "title": "Spiderman",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": "https://via.placeholder.com/600x300",
+          "video": "https://www.youtube.com/watch?v=qNDYdGxsXI0",
+          "tweet": ""
+        },
+        {
+          "title": "One Piece",
+          "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "image": "https://via.placeholder.com/600x300",
+          "video": "",
+          "tweet": "https://twitter.com/bertieglbrt/status/1279783477551005699"
+        }
+      ]
+    },
+    {
+        "id": 2,
+        "listID" : 1235,
+        "title": "Ask HN: Who is hiring?",
+        "author": "michaeljackson",
+        "createdDate": "Feb 1, 2020",
+        "likes": "43",
+        "list" : [
+          {
+            "title": "Superman",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "image": "https://via.placeholder.com/600x300",
+            "video": "https://www.youtube.com/watch?v=qNDYdGxsXI0",
+            "tweet": ""
+          },
+          {
+            "title": "Ironman",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "image": "https://via.placeholder.com/600x300",
+            "video": "",
+            "tweet": "https://twitter.com/bertieglbrt/status/1279783477551005699"
+          }
+        ]
+    }
+]

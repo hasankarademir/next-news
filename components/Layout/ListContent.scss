@@ -1,0 +1,64 @@
+.ListContent {
+    width: 300px;
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    background: #f2f4f5;
+    border-top: 2px solid white;
+    overflow-y: auto;
+    overflow-y: overlay;
+    height: calc(100vh - 62px);
+    border-left: 2px solid white;
+    ul {
+        padding: 10px;
+        li {
+            padding: 10px;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            cursor: pointer;
+            transition: all 200ms ease;
+            border-bottom: 1px solid white;
+            &:hover {
+                background: #f2f4f5;
+                
+            }
+            
+            .order {
+                width: 24px;
+                height: 24px;
+                background: red;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                line-height: 24px;
+                background: white;
+                border-radius: 3px;
+                margin-right: 10px;
+            }
+            .author {
+                margin-right: 10px;
+            }
+            .likes {
+                margin-left: auto;
+                display: flex;
+                flex-direction: column-reverse;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                font-size: 12px;
+                .text {
+                    font-size: 11px;
+                }
+                .icon {
+                    svg {
+                        width: 24px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.Main {
+    display: flex;
+    flex-direction: row;
+}
+
+.iletisim {
+	h1, h2, h3 {
+		display: block;
+		margin: 20px;
+	}
+	ul {
+		display: flex;
+		flex-wrap: wrap;
+		li {
+			margin: 20px;
+			padding: 10px;
+			background: #00adff;
+			border-radius: 10px;
+		}
+	}
+}

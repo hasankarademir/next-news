@@ -1,0 +1,380 @@
+[
+  {
+    "id": "tr",
+    "name": "Turkey",
+    "short": "tr",
+    "flag": "https://newsapi.org/images/flags/tr.svg" 
+  },
+  {
+    "id": "ar",
+    "name": "Argentina",
+    "short": "ar",
+    "flag": "https://newsapi.org/images/flags/ar.svg" 
+  },
+
+  {
+    "id": "au",
+    "name": "Australia",
+    "short": "au",
+    "flag": "https://newsapi.org/images/flags/au.svg" 
+  },
+
+  {
+    "id": "at",
+    "name": "Austria",
+    "short": "at",
+    "flag": "https://newsapi.org/images/flags/at.svg" 
+  },
+
+  {
+    "id": "be",
+    "name": "Belgium",
+    "short": "be",
+    "flag": "https://newsapi.org/images/flags/be.svg" 
+  },
+
+  {
+    "id": "br",
+    "name": "Brazil",
+    "short": "br",
+    "flag": "https://newsapi.org/images/flags/br.svg" 
+  },
+
+  {
+    "id": "bg",
+    "name": "Bulgaria",
+    "short": "bg",
+    "flag": "https://newsapi.org/images/flags/bg.svg" 
+  },
+
+  {
+    "id": "ca",
+    "name": "Canada",
+    "short": "ca",
+    "flag": "https://newsapi.org/images/flags/ca.svg" 
+  },
+
+  {
+    "id": "cn",
+    "name": "China",
+    "short": "cn",
+    "flag": "https://newsapi.org/images/flags/cn.svg" 
+  },
+
+  {
+    "id": "co",
+    "name": "Colombia",
+    "short": "co",
+    "flag": "https://newsapi.org/images/flags/co.svg" 
+  },
+
+  {
+    "id": "cu",
+    "name": "Cuba",
+    "short": "cu",
+    "flag": "https://newsapi.org/images/flags/cu.svg" 
+  },
+
+  {
+    "id": "cz",
+    "name": "Czech Republic",
+    "short": "cz",
+    "flag": "https://newsapi.org/images/flags/cz.svg" 
+  },
+
+  {
+    "id": "eg",
+    "name": "Egypt",
+    "short": "eg",
+    "flag": "https://newsapi.org/images/flags/eg.svg" 
+  },
+
+  {
+    "id": "fr",
+    "name": "France",
+    "short": "fr",
+    "flag": "https://newsapi.org/images/flags/fr.svg" 
+  },
+
+  {
+    "id": "de",
+    "name": "Germany",
+    "short": "de",
+    "flag": "https://newsapi.org/images/flags/de.svg" 
+  },
+
+  {
+    "id": "gr",
+    "name": "Greece",
+    "short": "gr",
+    "flag": "https://newsapi.org/images/flags/gr.svg" 
+  },
+
+  {
+    "id": "hk",
+    "name": "Hong Kong",
+    "short": "hk",
+    "flag": "https://newsapi.org/images/flags/hk.svg" 
+  },
+
+  {
+    "id": "hu",
+    "name": "Hungary",
+    "short": "hu",
+    "flag": "https://newsapi.org/images/flags/hu.svg" 
+  },
+
+  {
+    "id": "in",
+    "name": "India",
+    "short": "in",
+    "flag": "https://newsapi.org/images/flags/in.svg" 
+  },
+
+  {
+    "id": "id",
+    "name": "Indonesia",
+    "short": "id",
+    "flag": "https://newsapi.org/images/flags/id.svg" 
+  },
+
+  {
+    "id": "ie",
+    "name": "Ireland",
+    "short": "ie",
+    "flag": "https://newsapi.org/images/flags/ie.svg" 
+  },
+
+  {
+    "id": "il",
+    "name": "Israel",
+    "short": "il",
+    "flag": "https://newsapi.org/images/flags/il.svg" 
+  },
+
+  {
+    "id": "it",
+    "name": "Italy",
+    "short": "it",
+    "flag": "https://newsapi.org/images/flags/it.svg" 
+  },
+
+  {
+    "id": "jp",
+    "name": "Japan",
+    "short": "jp",
+    "flag": "https://newsapi.org/images/flags/jp.svg" 
+  },
+
+  {
+    "id": "lv",
+    "name": "Latvia",
+    "short": "lv",
+    "flag": "https://newsapi.org/images/flags/lv.svg" 
+  },
+
+  {
+    "id": "lt",
+    "name": "Lithuania",
+    "short": "lt",
+    "flag": "https://newsapi.org/images/flags/lt.svg" 
+  },
+
+  {
+    "id": "my",
+    "name": "Malaysia",
+    "short": "my",
+    "flag": "https://newsapi.org/images/flags/my.svg" 
+  },
+
+  {
+    "id": "mx",
+    "name": "Mexico",
+    "short": "mx",
+    "flag": "https://newsapi.org/images/flags/mx.svg" 
+  },
+
+  {
+    "id": "ma",
+    "name": "Morocco",
+    "short": "ma",
+    "flag": "https://newsapi.org/images/flags/ma.svg" 
+  },
+
+  {
+    "id": "nl",
+    "name": "Netherlands",
+    "short": "nl",
+    "flag": "https://newsapi.org/images/flags/nl.svg" 
+  },
+
+  {
+    "id": "nz",
+    "name": "New Zealand",
+    "short": "nz",
+    "flag": "https://newsapi.org/images/flags/nz.svg" 
+  },
+
+  {
+    "id": "ng",
+    "name": "Nigeria",
+    "short": "ng",
+    "flag": "https://newsapi.org/images/flags/ng.svg" 
+  },
+
+  {
+    "id": "no",
+    "name": "Norway",
+    "short": "no",
+    "flag": "https://newsapi.org/images/flags/no.svg" 
+  },
+
+  {
+    "id": "ph",
+    "name": "Philippines",
+    "short": "ph",
+    "flag": "https://newsapi.org/images/flags/ph.svg" 
+  },
+
+  {
+    "id": "pl",
+    "name": "Poland",
+    "short": "pl",
+    "flag": "https://newsapi.org/images/flags/pl.svg" 
+  },
+
+  {
+    "id": "pt",
+    "name": "Portugal",
+    "short": "pt",
+    "flag": "https://newsapi.org/images/flags/pt.svg" 
+  },
+
+  {
+    "id": "ro",
+    "name": "Romania",
+    "short": "ro",
+    "flag": "https://newsapi.org/images/flags/ro.svg" 
+  },
+
+  {
+    "id": "ru",
+    "name": "Russia",
+    "short": "ru",
+    "flag": "https://newsapi.org/images/flags/ru.svg" 
+  },
+
+  {
+    "id": "sa",
+    "name": "Saudi Arabia",
+    "short": "sa",
+    "flag": "https://newsapi.org/images/flags/sa.svg" 
+  },
+
+  {
+    "id": "rs",
+    "name": "Serbia",
+    "short": "rs",
+    "flag": "https://newsapi.org/images/flags/rs.svg" 
+  },
+
+  {
+    "id": "sg",
+    "name": "Singapore",
+    "short": "sg",
+    "flag": "https://newsapi.org/images/flags/sg.svg" 
+  },
+
+  {
+    "id": "sk",
+    "name": "Slovakia",
+    "short": "sk",
+    "flag": "https://newsapi.org/images/flags/sk.svg" 
+  },
+
+  {
+    "id": "si",
+    "name": "Slovenia",
+    "short": "si",
+    "flag": "https://newsapi.org/images/flags/si.svg" 
+  },
+
+  {
+    "id": "za",
+    "name": "South Africa",
+    "short": "za",
+    "flag": "https://newsapi.org/images/flags/za.svg" 
+  },
+
+  {
+    "id": "kr",
+    "name": "South Korea",
+    "short": "kr",
+    "flag": "https://newsapi.org/images/flags/kr.svg" 
+  },
+
+  {
+    "id": "se",
+    "name": "Sweden",
+    "short": "se",
+    "flag": "https://newsapi.org/images/flags/se.svg" 
+  },
+
+  {
+    "id": "ch",
+    "name": "Switzerland",
+    "short": "ch",
+    "flag": "https://newsapi.org/images/flags/ch.svg" 
+  },
+
+  {
+    "id": "tw",
+    "name": "Taiwan",
+    "short": "tw",
+    "flag": "https://newsapi.org/images/flags/tw.svg" 
+  },
+
+  {
+    "id": "th",
+    "name": "Thailand",
+    "short": "th",
+    "flag": "https://newsapi.org/images/flags/th.svg" 
+  },
+
+
+
+  {
+    "id": "ae",
+    "name": "UAE",
+    "short": "ae",
+    "flag": "https://newsapi.org/images/flags/ae.svg" 
+  },
+
+  {
+    "id": "ua",
+    "name": "Ukraine",
+    "short": "ua",
+    "flag": "https://newsapi.org/images/flags/ua.svg" 
+  },
+
+  {
+    "id": "gb",
+    "name": "United Kingdom",
+    "short": "gb",
+    "flag": "https://newsapi.org/images/flags/gb.svg" 
+  },
+
+  {
+    "id": "us",
+    "name": "United States",
+    "short": "us",
+    "flag": "https://newsapi.org/images/flags/us.svg" 
+  },  
+
+  {
+    "id": "ve",
+    "name": "Venuzuela",
+    "short": "ve",
+    "flag": "https://newsapi.org/images/flags/ve.svg" 
+  }
+]
