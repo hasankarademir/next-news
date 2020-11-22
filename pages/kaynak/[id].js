@@ -5,7 +5,7 @@ import Head from 'next/head'
 
 
 import Layout from '../Layout';
-import ListTitles from '../../components/Layout/ListTitles';
+import NewsBox from '../../components/NewsBox';
 
 
 const Kaynak = ({kaynakData, error}) => {
@@ -29,7 +29,7 @@ const Kaynak = ({kaynakData, error}) => {
 		{
 			!error ?
 			(
-				<ListTitles newsData={newsData && newsData}  />
+				<NewsBox newsData={newsData && newsData}  />
 			)
 			: <h1>HATA VAR</h1>
 		}
@@ -45,7 +45,7 @@ Kaynak.getInitialProps = async (context) => {
     const id = context.query.id;
 
     if (id !== null || id) {
-        const res = await fetch(`http://newsapi.org/v2/top-headlines?sources=${id}&apiKey=4003e5a0008e4809b65ff979833053e6`);
+        const res = await fetch(`http://newsapi.org/v2/top-headlines?sources=${id}&apiKey=c88e307ba7a44a73a3958d776e7b4947`);
         const data = await res.json();
 
         return {

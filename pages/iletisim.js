@@ -2,12 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Layout from './Layout';
 import Head from 'next/head'
 import Link from 'next/link'
-import ListTitles from '../components/Layout/ListTitles';
-import ListContent from '../components/Layout/ListContent';
+
 import axios from 'axios';
 
 
-import '../styles/styles.scss';
 
 const Iletisim = ({data}) => {
 
@@ -45,7 +43,7 @@ export default Iletisim;
 
 export async function getStaticProps() {
 	
-	const res = await axios('https://newsapi.org/v2/sources?apiKey=4003e5a0008e4809b65ff979833053e6')
+	const res = await axios('https://newsapi.org/v2/sources?apiKey=c88e307ba7a44a73a3958d776e7b4947')
 	const posts = await res.data
 	const data = posts.sources;
 

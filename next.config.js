@@ -8,7 +8,7 @@ module.exports = withSass({
 	webpack(config, options) {
 	// this rule is to add support for global scss variables
 		const globalSass = [
-			'./styles/variables.scss',
+			'./styles/styles.scss',
 		];
 
 		config.module.rules.push({

@@ -1,12 +1,8 @@
 import React, { useState } from 'react';
-import Router from 'next/router';
-import TimeAgo from 'react-timeago'
+import Link from 'next/link'
 import Modal from 'react-modal';
 import {MdClose} from 'react-icons/md';
 
-
-import {MdFavoriteBorder } from 'react-icons/md';
-import './ListContent.scss';
 
 const customStyles = {
     content : {
@@ -39,7 +35,9 @@ function afterOpenModal() {
 function afterCloseModal() {
     console.log('kapandı şu an');
 }
-
+function externalLink(link) {
+	window.open(link, '_blank');
+}
 
 
     return (
@@ -62,7 +60,11 @@ function afterCloseModal() {
                         </div>
                     </div>
         
-                <div>{newsDetail.description}</div>
+                <div  dangerouslySetInnerHTML={{__html: newsDetail.description}} className="news-desc"></div>
+				
+				<div className="linkContainer">
+				<button className="goToNews" onClick={() => externalLink(newsDetail.url)}>Habere git...</button>
+				</div>
                 
             </Modal>
         </div>

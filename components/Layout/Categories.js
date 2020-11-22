@@ -2,36 +2,43 @@ import React, { useState } from 'react';
 import Link from 'next/link'
 
 import {  MdFace, MdCast } from 'react-icons/md';
-import './categories.scss';
+import './Categories.scss';
 
 const Categories = ({countryList, sourceList}) => {
     const categoryList = [
         {
-            query: 'covid',
+			id: 1,
+			query: 'covid',
             title: 'Covid-19'
         },
         {
-            query: 'galatasaray',
+			id: 2,
+			query: 'galatasaray',
             title: 'Galatasaray'
         },
         {
-            query: 'istanbul',
+			id: 3,
+			query: 'istanbul',
             title: 'İstanbul'
         },
         {
-            query: 'ateş',
+			id: 4,
+			query: 'ateş',
             title: 'Ateş'
         },
         {
-            query: 'su',
+			id: 5,
+			query: 'su',
             title: 'Su'
         },
         {
-            query: 'toprak',
+			id: 6,
+			query: 'toprak',
             title: 'Toprak'
         },
         {
-            query: 'tahta',
+			id: 7,
+			query: 'tahta',
             title: 'Tahta'
         }
     ]
@@ -42,7 +49,7 @@ const Categories = ({countryList, sourceList}) => {
             <div className="list list-categories">
                 <ul>
                     <li>
-                        <Link  href="/iletisim">
+                        <Link href="/iletisim">
                             <a>İletişim</a>
                         </Link>
                     </li>
@@ -51,7 +58,7 @@ const Categories = ({countryList, sourceList}) => {
                 <ul>
                     {
                         sourceList.map(item =>
-                            <li key={item.query}>
+                            <li key={item.id}>
                                 <Link as={`/kaynak/${item.id}`} href="/kaynak/[id]">
                                     <a>
                                         <em className="icon">
@@ -69,7 +76,7 @@ const Categories = ({countryList, sourceList}) => {
                 <ul>
                     {
                         categoryList.map(item =>
-                            <li key={item.query}>
+                            <li key={item.id}>
                                 <Link as={`/kategori/${item.query}`} href="/kategori/[id]">
                                     <a>
                                         <em className="icon">

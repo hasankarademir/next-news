@@ -3,11 +3,12 @@ import TimeAgo from 'react-timeago'
 import Masonry from 'react-masonry-css'
 import ModalDetail from './ModalDetail'
 import {MdClearAll, MdMoodBad} from 'react-icons/md';
-import './ListTitles.scss';
+import './NewsBox.scss';
+import ContentLoader from "react-content-loader";
 
 
 
-const ListTitles = ({newsData}) => {
+const NewsBox = ({newsData}) => {
     const breakpointColumnsObj = {
         default: 4,
         1100: 3,
@@ -17,14 +18,16 @@ const ListTitles = ({newsData}) => {
     return (
         <div className="Titles">
                 <div className="TitlesContainer">
+				
                     <Masonry
                         breakpointCols={breakpointColumnsObj}
                         className="my-masonry-grid"
                         columnClassName="my-masonry-grid_column"
                     >
                         {
+							
                             newsData?.map((item, index) => 
-								<TitleItem key={index} item={item}/>
+								item ? <TitleItem key={index} item={item}/> : <h1> sadasdsadsadasdas</h1>
                             )
                         }
                         </Masonry>
@@ -35,7 +38,7 @@ const ListTitles = ({newsData}) => {
 
 
 
-export default ListTitles
+export default NewsBox
 
 
 

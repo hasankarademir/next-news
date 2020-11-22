@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Layout from './Layout';
 import Link from 'next/link'
-import ListTitles from '../components/Layout/ListTitles';
-import ListContent from '../components/Layout/ListContent';
+import NewsBox from '../components/NewsBox';
 import axios from 'axios';
 
 
@@ -16,7 +15,7 @@ const Home = ({serverNewsTopHeadlines}) => {
 	useEffect( () => {
 		if(serverNewsTopHeadlines.length == 0) {
 			async function fetchMyApi() {
-				const result = await axios(`https://newsapi.org/v2/top-headlines?country=tr&apiKey=4003e5a0008e4809b65ff979833053e6`)
+				const result = await axios(`https://newsapi.org/v2/top-headlines?country=tr&apiKey=c88e307ba7a44a73a3958d776e7b4947`)
 				setNewsDAta(result.data.articles);
 			}
 			fetchMyApi();
@@ -25,7 +24,7 @@ const Home = ({serverNewsTopHeadlines}) => {
 	
   return (
     <Layout>
-		<ListTitles newsData={newsData}  />
+		<NewsBox newsData={newsData}  />
     </Layout>
   )
 }
@@ -36,7 +35,7 @@ const Home = ({serverNewsTopHeadlines}) => {
 export default Home;
 
 export async function getServerSideProps() {
-	const res = await axios(`http://newsapi.org/v2/top-headlines?country=tr&apiKey=4003e5a0008e4809b65ff979833053e6`)
+	const res = await axios(`http://newsapi.org/v2/top-headlines?country=tr&apiKey=c88e307ba7a44a73a3958d776e7b4947`)
 	const json = await res.data;
 	return { props: { serverNewsTopHeadlines: json.articles }}
 }

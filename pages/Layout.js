@@ -1,12 +1,15 @@
+//c88e307ba7a44a73a3958d776e7b4947
+//4003e5a0008e4809b65ff979833053e6
 import React, { Component, Children, useEffect, useState} from 'react';
+import axios from 'axios';
 import Head from 'next/head'
 import Header from '../components/Layout/Header';
-import JSON_countryList from '../data/countryList.json';
 import Categories from '../components/Layout/Categories';
-import axios from 'axios';
+import JSON_countryList from '../data/countryList.json';
 import useWindowSize from '../hooks/useWindowSize'
 
 import "./index.scss"
+
 
 const Layout = ({children, title="NEXT NEWS"}) => {
 	const [newsSource, setNewsSource] = useState([])
@@ -25,7 +28,7 @@ const Layout = ({children, title="NEXT NEWS"}) => {
 	
 	const fetchMyApi = async () => {
 		
-		const result = await axios(`https://newsapi.org/v2/sources?apiKey=4003e5a0008e4809b65ff979833053e6`)
+		const result = await axios(`https://newsapi.org/v2/sources?apiKey=c88e307ba7a44a73a3958d776e7b4947`)
 		const json = await result.data;
 		
 		setNewsSource(json.sources);
