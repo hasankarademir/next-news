@@ -4,7 +4,7 @@ import React, { Component, Children, useEffect, useState} from 'react';
 import axios from 'axios';
 import Head from 'next/head'
 import Header from '../components/Layout/Header';
-import Categories from '../components/Layout/Categories';
+import Categories from '../components/Layout/Categories.js';
 import JSON_countryList from '../data/countryList.json';
 import useWindowSize from '../hooks/useWindowSize'
 
