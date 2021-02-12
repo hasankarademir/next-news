@@ -43,7 +43,8 @@ export default Kaynak
 
 Kaynak.getInitialProps = async (context) => {
     const id = context.query.id;
-
+	console.log(context);
+	
     if (id !== null || id) {
         const res = await fetch(`http://newsapi.org/v2/top-headlines?sources=${id}&apiKey=c88e307ba7a44a73a3958d776e7b4947`);
         const data = await res.json();

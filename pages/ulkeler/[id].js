@@ -29,7 +29,7 @@ const Ulkeler = ({serverNewsTopHeadlines}) => {
   return (
     <Layout>
 		{newsData ?
-		<NewsBox newsData={newsData}  /> : <h1>qweqwe</h1>}
+		<NewsBox newsData={newsData}  /> : <h1>hata</h1>}
     </Layout>
   )
 }
@@ -44,4 +44,3 @@ export async function getServerSideProps({params}) {
 	const json = await res.data;
 	return { props: { serverNewsTopHeadlines: json.articles }}
 }
-

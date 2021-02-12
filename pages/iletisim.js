@@ -19,7 +19,6 @@ const Iletisim = ({data}) => {
 		<meta property="og:title" content="İLETİŞİM" />      
 		<meta property="og:description" content="İLETİŞİM SAYFAM" />
 		<meta property="og:url" content="LOCALHOST" />
-		<link rel="icon" href="/favicon.ico" />
 		</Head>
 		  <div className="iletisim">
 			<h1>İLETİŞİM</h1>
@@ -29,7 +28,7 @@ const Iletisim = ({data}) => {
 				{data.map((item) => (
 					<li>{item.url}</li>
 				))}
-				</ul>
+			</ul>
 		  </div>
     </Layout>
   )
