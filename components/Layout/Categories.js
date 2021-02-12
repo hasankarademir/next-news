@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link'
 
 import {  MdFace, MdCast } from 'react-icons/md';
-import './Categories.scss';
+import './categories.scss';
 
 const Categories = ({countryList, sourceList}) => {
     const categoryList = [
